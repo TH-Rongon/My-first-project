@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Flow 01</title>
+
+    <!-- Google Fonts -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="background-color: #d6dded">
+    <!-- Header Start -->
+    <header>
+      <nav class="navbar">
+        <p class="brand-logo">LOGO</p>
+        <button class="btn-signup primary-color">Sign Up</button>
+      </nav>
+
+      <section class="hero">
+        <h1 class="hero-heading">
+          Cool Dark UI Template for <br />Webflow Agencies!
+        </h1>
+        <button class="btn-signup primary-color">Stay Focused</button>
+      </section>
+    </header>
+
+    <!-- Main Content Start -->
+    <section class="feature-section">
+      <div class="feature-description">
+        <h3 class="feature-heading">See It in Action</h3>
+        <p class="feature-text">
+          Explore the live preview and imagine <br />
+          your brand in this bold new look.
+        </p>
+        <button class="btn-preview primary-color">Launch Live Preview</button>
+      </div>
+      <div class="feature-image">
+        <img
+          src="./assets/wc-mini.png"
+          alt="Web Flow Conf 2022"
+          width="400"
+          height="320"
+        />
+      </div>
+    </section>
+
+    <section class="stats">
+      <h3 class="stats-heading">Joined Thousands of Productive Users</h3>
+      <div class="stats-cards">
+        <div class="stats-card">
+          <h4 class="stats-number">50K</h4>
+          <p class="stats-label">Active Users</p>
+        </div>
+        <div class="stats-card">
+          <h4 class="stats-number">2M+</h4>
+          <p class="stats-label">Focus Sessions</p>
+        </div>
+        <div class="stats-card">
+          <h4 class="stats-number">95%</h4>
+          <p class="stats-label">Satisfaction Rate</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <h3 class="testimonials-heading">What our users say</h3>
+      <div class="testimonial-cards">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+          </div>
+          <div class="testimonial-content">
+            <h4 class="testimonial-title">Loved By Designers</h4>
+            <p class="testimonial-text">
+              This template instantly grow up our presence and activity
+            </p>
+          </div>
+          <div class="testimonial-user">
+            <div class="user-avatar">
+              <img src="./assets/avatar.png" alt="avatar" />
+            </div>
+            <div class="user-info">
+              <p class="user-name">John Maxwell</p>
+              <time>11 JULY 2025</time>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+          </div>
+          <div class="testimonial-content">
+            <h4 class="testimonial-title">Loved by Creator</h4>
+            <p class="testimonial-text">
+              An excellent UI kit that saved us tons of development time.
+            </p>
+          </div>
+          <div class="testimonial-user">
+            <div class="user-avatar">
+              <img src="./assets/avatar.png" alt="avatar" />
+            </div>
+            <div class="user-info">
+              <p class="user-name">John Wick</p>
+              <time>10 JULY 2025</time>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+            <img src="./assets/icon-star.png" alt="star icon" />
+          </div>
+          <div class="testimonial-content">
+            <h4 class="testimonial-title">Loved By Designers</h4>
+            <p class="testimonial-text">
+              This template helped our team stay connected and enhance
+              productivity.
+            </p>
+          </div>
+          <div class="testimonial-user">
+            <div class="user-avatar">
+              <img src="./assets/avatar.png" alt="avatar" />
+            </div>
+            <div class="user-info">
+              <p class="user-name">John Doe</p>
+              <time>09 JULY 2025</time>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact-heading">
+        <h2>Let's Get in <br />Touch</h2>
+      </div>
+      <div class="contact-form">
+        <form>
+          <label for="email">Email</label><br />
+          <input
+            type="email"
+            id="email"
+            placeholder="example@gmail.com"
+          /><br />
+          <label for="name">Name</label><br />
+          <input type="text" id="name" placeholder="Full Name" /><br />
+          <label for="message">Message</label><br />
+          <textarea
+            id="message"
+            rows="5"
+            cols="51"
+            placeholder="Write Your Message..."
+          ></textarea>
+        </form>
+        <button class="primary-color btn-contact">Get in Touch</button>
+      </div>
+    </section>
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="footer-text">
+        <h4 class="footer-logo">LOGO</h4>
+        <p class="footer-text">
+          Ready to elevate your online presence? Contact us today to discuss
+          <br />
+          your project and discover how we can bring your vision to life.
+        </p>
+      </div>
+      <div class="footer-nav">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">How it works</a></li>
+          <li><a href="/">Services</a></li>
+        </ol>
+      </div>
+    </footer>
+  </body>
+</html>
